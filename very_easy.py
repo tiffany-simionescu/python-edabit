@@ -56,3 +56,36 @@ print(to_int("77"))  # 77
 print(to_int("532")) # 532
 print(to_str(77))  # "77"
 print(to_str(532))  # "532"
+
+# Convert Minutes into Seconds
+def convert(minutes):
+		return minutes * 60
+
+print(convert(5)) # 300
+print(convert(3)) # 180
+print(convert(2)) # 120
+
+# Return the Next Number from the Integer Passed
+def addition2(num):
+		return num + 1
+
+print(addition2(0)) # 1
+print(addition2(9)) # 10
+print(addition2(-3)) # -2
+
+# Find the Perimeter of a Rectangle
+def find_perimeter(length, width):
+		return 2 * (length + width)
+
+print(find_perimeter(6, 7)) # 26
+print(find_perimeter(20, 10)) # 60
+print(find_perimeter(2, 9)) # 22
+
+# To the Power of _____
+def calculate_exponent(num, exp):
+		return num**exp
+
+print(calculate_exponent(5, 5)) # 3125
+print(calculate_exponent(10, 10)) # 10000000000
+print(calculate_exponent(3, 3)) # 27
+
