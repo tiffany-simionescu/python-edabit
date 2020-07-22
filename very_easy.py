@@ -89,3 +89,27 @@ print(calculate_exponent(5, 5)) # 3125
 print(calculate_exponent(10, 10)) # 10000000000
 print(calculate_exponent(3, 3)) # 27
 
+# Concatenating Two Integer Lists
+def concat(lst1, lst2):
+		return lst1 + lst2
+
+print(concat([1, 3, 5], [2, 6, 8])) # [1, 3, 5, 2, 6, 8]
+
+# The Farm Problem
+# chickens = 2 legs
+# cows = 4 legs
+# pigs = 4 legs
+def animals(chickens, cows, pigs):
+		return (chickens * 2) + (cows * 4) + (pigs * 4)
+
+print(animals(2, 3, 5)) # 36 legs
+
+# Are the Numbers Equal?
+def is_same_num(num1, num2):
+		if num1 == num2:
+				return True
+		else:
+				return False
+
+print(is_same_num(4, 8)) # False
+print(is_same_num(2, 2)) # True
