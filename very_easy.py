@@ -131,3 +131,13 @@ def difference_max_min(lst):
 		return max(lst) - min(lst)
 
 print(difference_max_min([44, 32, 86, 19])) # 67
+
+# Is the Number Less than or Equal to Zero?
+def less_than_or_equal_to_zero(num):
+		if num <= 0:
+				return True
+		return False
+
+print(less_than_or_equal_to_zero(5)) # False
+print(less_than_or_equal_to_zero(0)) # True
+print(less_than_or_equal_to_zero(-2)) # True
