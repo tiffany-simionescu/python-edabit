@@ -123,5 +123,11 @@ print(difference([10, 15, 20, 2, 10, 6])) # 20 - 2 = 18
 # Find the Smallest Number in a List
 def find_smallest_num(lst):
 		return min(lst)
-		
+
 print(find_smallest_num([34, 15, 88, 2])) # 2
+
+# Difference of Max and Min Numbers in List
+def difference_max_min(lst):
+		return max(lst) - min(lst)
+
+print(difference_max_min([44, 32, 86, 19])) # 67
