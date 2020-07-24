@@ -113,3 +113,9 @@ def is_same_num(num1, num2):
 
 print(is_same_num(4, 8)) # False
 print(is_same_num(2, 2)) # True
+
+# Maximum Difference
+def difference(nums):
+	return max(nums) - min(nums)
+
+print(difference([10, 15, 20, 2, 10, 6])) # 20 - 2 = 18
