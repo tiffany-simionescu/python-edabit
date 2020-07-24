@@ -141,3 +141,9 @@ def less_than_or_equal_to_zero(num):
 print(less_than_or_equal_to_zero(5)) # False
 print(less_than_or_equal_to_zero(0)) # True
 print(less_than_or_equal_to_zero(-2)) # True
+
+# Squared
+def squared(b):
+		return b**2
+		
+print(squared(5)) # 25
