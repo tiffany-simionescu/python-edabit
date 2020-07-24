@@ -145,5 +145,14 @@ print(less_than_or_equal_to_zero(-2)) # True
 # Squared
 def squared(b):
 		return b**2
-		
+
 print(squared(5)) # 25
+
+# Football Points
+# win = 3 points
+# draw = 1 point
+# loss = 0 points
+def football_points(wins, draws, losses):
+		return (wins * 3) + draws
+
+print(football_points(3, 4, 2)) # 13
