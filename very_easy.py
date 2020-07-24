@@ -116,6 +116,12 @@ print(is_same_num(2, 2)) # True
 
 # Maximum Difference
 def difference(nums):
-	return max(nums) - min(nums)
+		return max(nums) - min(nums)
 
 print(difference([10, 15, 20, 2, 10, 6])) # 20 - 2 = 18
+
+# Find the Smallest Number in a List
+def find_smallest_num(lst):
+		return min(lst)
+		
+print(find_smallest_num([34, 15, 88, 2])) # 2
