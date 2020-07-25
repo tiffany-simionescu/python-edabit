@@ -236,3 +236,12 @@ def And(a, b):
 
 print(And(True, False)) # False
 print(And(True, True)) # True
+
+# Compare Strings by Count of Characters
+def comp(txt1, txt2):
+		if len(txt1) == len(txt2):
+				return True
+		return False
+
+print(comp("AB", "CD")) # True
+print(comp("ABC", "DE")) # False
