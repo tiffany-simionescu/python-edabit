@@ -202,3 +202,9 @@ def profitable_gamble(prob, prize, pay):
 
 print(profitable_gamble(0.2, 50, 9)) # True
 print(profitable_gamble(0.9, 1, 2)) # False
+
+# Convert Hours and Minutes into Seconds
+def convert_hours(hours, minutes):
+		return (hours * 3600) + (minutes * 60)
+		
+print(convert_hours(1, 3)) # 3780
