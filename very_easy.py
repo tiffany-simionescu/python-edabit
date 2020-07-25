@@ -183,3 +183,13 @@ def divisible(num):
 
 print(divisible(1)) # False
 print(divisible(1000)) # True
+
+# Is the String Empty?
+def is_empty(s):
+		if len(s) == 0:
+				return True
+		return False
+		
+print(is_empty("")) # True
+print(is_empty(" ")) # False
+print(is_empty("a")) # False
