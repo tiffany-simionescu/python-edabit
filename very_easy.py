@@ -165,3 +165,12 @@ def less_than_100(a, b):
 
 print(less_than_100(22, 15)) # True
 print(less_than_100(83, 34)) # False
+
+# Get the Sum of All List Elements
+def get_sum_of_elements(lst):
+		sum = 0
+		for elem in lst:
+				sum += elem
+		return sum
+		
+print(get_sum_of_elements([2, 7, 4])) # 13
