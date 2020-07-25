@@ -245,3 +245,9 @@ def comp(txt1, txt2):
 
 print(comp("AB", "CD")) # True
 print(comp("ABC", "DE")) # False
+
+# Concatenate First and Last Name into One String
+def concat_name(first_name, last_name):
+		return last_name + ", " + first_name
+
+print(concat_name("Tiffany", "Simionescu")) # "Simionescu, Tiffany"
