@@ -206,5 +206,15 @@ print(profitable_gamble(0.9, 1, 2)) # False
 # Convert Hours and Minutes into Seconds
 def convert_hours(hours, minutes):
 		return (hours * 3600) + (minutes * 60)
-		
+
 print(convert_hours(1, 3)) # 3780
+
+# Find the Largest Number in a List
+def findLargestNum(nums):
+		largest_num = 0
+		for n in nums:
+				if n > largest_num:
+						largest_num = n
+		return largest_num
+
+print(findLargestNum([4, 5, 1, 3])) # 5
