@@ -218,3 +218,13 @@ def findLargestNum(nums):
 		return largest_num
 
 print(findLargestNum([4, 5, 1, 3])) # 5
+
+# Recursion to Repeat a String n Number of Times
+def repetition(txt, n):
+		if n <= 0:
+				return ''
+		else:
+				return txt + repetition(txt, n-1)
+
+print(repetition("ab", 3)) # "ababab"
+
