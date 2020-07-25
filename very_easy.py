@@ -172,5 +172,14 @@ def get_sum_of_elements(lst):
 		for elem in lst:
 				sum += elem
 		return sum
-		
+
 print(get_sum_of_elements([2, 7, 4])) # 13
+
+# Multiple of 100
+def divisible(num):
+		if num % 100 == 0:
+				return True
+		return False
+
+print(divisible(1)) # False
+print(divisible(1000)) # True
