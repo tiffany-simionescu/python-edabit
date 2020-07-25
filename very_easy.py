@@ -228,3 +228,11 @@ def repetition(txt, n):
 
 print(repetition("ab", 3)) # "ababab"
 
+# Using the "and" Operator
+def And(a, b):
+		if a == True and b == True:
+				return True
+		return False
+
+print(And(True, False)) # False
+print(And(True, True)) # True
