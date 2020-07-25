@@ -260,3 +260,10 @@ def divides_evenly(a, b):
 
 print(divides_evenly(98, 7)) # True
 print(divides_evenly(85, 4)) # False
+
+# Get last item in list
+def get_last_item(lst):
+		return lst[-1]
+
+print(get_last_item([2, 3, 4])) # 4
+
