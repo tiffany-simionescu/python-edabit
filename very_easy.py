@@ -189,7 +189,16 @@ def is_empty(s):
 		if len(s) == 0:
 				return True
 		return False
-		
+
 print(is_empty("")) # True
 print(is_empty(" ")) # False
 print(is_empty("a")) # False
+
+# Profitable Gamble
+def profitable_gamble(prob, prize, pay):
+		if prob * prize > pay:
+				return True
+		return False
+
+print(profitable_gamble(0.2, 50, 9)) # True
+print(profitable_gamble(0.9, 1, 2)) # False
