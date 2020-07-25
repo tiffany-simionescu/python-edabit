@@ -251,3 +251,12 @@ def concat_name(first_name, last_name):
 		return last_name + ", " + first_name
 
 print(concat_name("Tiffany", "Simionescu")) # "Simionescu, Tiffany"
+
+# Divides Evenly
+def divides_evenly(a, b):
+		if a % b == 0:
+				return True
+		return False
+
+print(divides_evenly(98, 7)) # True
+print(divides_evenly(85, 4)) # False
