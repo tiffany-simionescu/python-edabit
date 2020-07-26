@@ -279,3 +279,10 @@ def hello_name(name):
 		return "Hello " + name + "!"
 
 print(hello_name("Tiffany")) # "Hello Tiffany!"
+
+# Check Whether a Given Number Is Odd
+def is_odd(num):
+  	return num % 2 != 0
+
+print(is_odd(-5)) # True
+print(is_odd(2)) # False
