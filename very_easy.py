@@ -273,3 +273,9 @@ def is_even(n):
 
 print(is_even(4)) # True
 print(is_even(5)) # False
+
+# Name Greeting
+def hello_name(name):
+		return "Hello " + name + "!"
+
+print(hello_name("Tiffany")) # "Hello Tiffany!"
