@@ -267,3 +267,9 @@ def get_last_item(lst):
 
 print(get_last_item([2, 3, 4])) # 4
 
+# Minimal I: If Boolean Then Boolean
+def is_even(n):
+		return n % 2 == 0
+
+print(is_even(4)) # True
+print(is_even(5)) # False
