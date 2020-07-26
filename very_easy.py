@@ -286,3 +286,21 @@ def is_odd(num):
 
 print(is_odd(-5)) # True
 print(is_odd(2)) # False
+
+# Returning the Container
+def get_container(product):
+		matches = {
+		"Bread" : "bag",
+		"Milk" : "bottle",
+		"Beer" : "bottle",
+		"Eggs" : "carton",
+		"Cerials" : "box",
+		"Candy" : "plastic",
+		"Cheese" : None
+		}
+		return matches[product]
+
+print(get_container("Bread")) # "bag"
+print(get_container("Beer")) # "bottle"
+print(get_container("Candy")) # "plastic"
+print(get_container("Cheese")) # None
