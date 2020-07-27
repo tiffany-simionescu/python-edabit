@@ -317,3 +317,16 @@ def divisible_by_five(n):
 
 print(divisible_by_five(5)) # True
 print(divisible_by_five(4)) # False
+
+# Testing K^K == N
+def k_to_k(n, k):
+		return k**k == n
+
+print(k_to_k(4, 2)) # True
+
+# on/off switches
+def pos_com(num):
+	 return 2**num
+
+print(pos_com(3)) # 8
+
