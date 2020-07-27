@@ -304,3 +304,10 @@ print(get_container("Bread")) # "bag"
 print(get_container("Beer")) # "bottle"
 print(get_container("Candy")) # "plastic"
 print(get_container("Cheese")) # None
+
+# Number of Stickers
+def how_many_stickers(n):
+		return n*n*6
+
+print(how_many_stickers(1)) # 6
+
