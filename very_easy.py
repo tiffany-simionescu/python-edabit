@@ -311,3 +311,9 @@ def how_many_stickers(n):
 
 print(how_many_stickers(1)) # 6
 
+# Check if an Integer is Divisible By Five
+def divisible_by_five(n):
+		return n % 5 == 0
+
+print(divisible_by_five(5)) # True
+print(divisible_by_five(4)) # False
