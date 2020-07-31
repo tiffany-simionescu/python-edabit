@@ -16,3 +16,11 @@ def num_to_dashes(num):
         return dashes
 
 print(num_to_dashes(5)) # "-----"
+
+# Is the Word Singular or Plural?
+def is_plural(word):
+	  return word[-1] == "s"
+
+print(is_plural("changes")) # True
+print(is_plural("change")) # False
+
