@@ -27,6 +27,13 @@ print(is_plural("change")) # False
 # Check Equals
 def check_equals(lst1, lst2):
     return lst1 == lst2
-    
+
 print(check_equals([1, 2], [1, 2])) # True
 print(check_equals([1, 2], [1, 3])) # False
+
+# Solve the Equation
+def equation(s):
+	  return eval(s)
+
+print(equation("1+1")) # 2
+print(equation("7*4-2")) # 26
