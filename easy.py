@@ -54,3 +54,12 @@ print(count_characters([
   "###",
   "###"
 ])) # 9
+
+# Where's Bob?
+def find_bob(names):
+	if "Bob" in names:
+		return names.index("Bob")
+	else:
+		return -1
+        
+print(find_bob(["Jimmy", "Layla", "Bob"])) # 2
