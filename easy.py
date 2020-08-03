@@ -37,3 +37,20 @@ def equation(s):
 
 print(equation("1+1")) # 2
 print(equation("7*4-2")) # 26
+
+# Characters in Shapes
+def count_characters(lst):
+	if lst is "" or None:
+		return 0
+	
+	count = 0
+	for i in lst:
+		count += len(i)
+	
+	return count
+    
+print(count_characters([
+  "###",
+  "###",
+  "###"
+])) # 9
