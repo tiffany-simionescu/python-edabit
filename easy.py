@@ -63,3 +63,10 @@ def find_bob(names):
 		return -1
         
 print(find_bob(["Jimmy", "Layla", "Bob"])) # 2
+
+
+# Frames Per Second
+def frames(minutes, fps):
+	return minutes * 60 * fps
+
+print(frames(10, 1)) # 600
