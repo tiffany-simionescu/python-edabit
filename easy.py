@@ -70,3 +70,9 @@ def frames(minutes, fps):
 	return minutes * 60 * fps
 
 print(frames(10, 1)) # 600
+
+# Retrn Something to Me!
+def give_me_something(a):
+	return "something " + a
+
+print(give_me_something("is better than nothing")) # "something is better than nothing"
