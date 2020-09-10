@@ -84,3 +84,7 @@ def is_last_character_n(word):
 # Evaluate an expression
 def eq(evaluate):
 	return eval(evaluate)
+
+# Long Burp
+def long_burp(num):
+	return "Bu" + ("r" * num) + "p"
