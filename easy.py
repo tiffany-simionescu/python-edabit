@@ -76,3 +76,7 @@ def give_me_something(a):
 	return "something " + a
 
 print(give_me_something("is better than nothing")) # "something is better than nothing"
+
+# Is Last Character N?
+def is_last_character_n(word):
+	return word[-1] == "n"
