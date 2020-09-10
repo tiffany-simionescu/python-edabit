@@ -80,3 +80,7 @@ print(give_me_something("is better than nothing")) # "something is better than n
 # Is Last Character N?
 def is_last_character_n(word):
 	return word[-1] == "n"
+
+# Evaluate an expression
+def eq(evaluate):
+	return eval(evaluate)
