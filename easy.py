@@ -88,3 +88,10 @@ def eq(evaluate):
 # Long Burp
 def long_burp(num):
 	return "Bu" + ("r" * num) + "p"
+
+# Flip the Boolean
+def flip_bool(b):
+	if b:
+		return 0
+	return 1
+
