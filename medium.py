@@ -15,3 +15,4 @@ def fizz_buzz(num):
 		return "Fizz"
 	else:
 		return str(num)
+
