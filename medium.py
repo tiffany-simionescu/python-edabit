@@ -16,3 +16,24 @@ def fizz_buzz(num):
 	else:
 		return str(num)
 
+# Class Notes
+memory = [
+	1,
+	1,
+	1,
+	2
+]
+running = True
+count = 0
+
+while running:
+	index = memory[count]
+
+	if index == 1:
+		print("hi")
+		count += 1
+
+	elif index == 2:
+		print("bye")
+		running = False
+		count += 1
