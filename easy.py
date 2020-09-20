@@ -95,3 +95,6 @@ def flip_bool(b):
 		return 0
 	return 1
 
+# return binary
+def in_binary(b):
+	return bin(b)
